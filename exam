@@ -1,0 +1,3 @@
+input_string = input("Введите строку: ")
+byte_length = len(input_string.encode('utf-8'))
+print(f"Длина строки в байтах: {byte_length}")
